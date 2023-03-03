@@ -41,8 +41,11 @@ Create eks cluster using eksctl
 
 
 3.   Install JDK and Maven on AWS EC2 Instance(Steps for installing jenkins)
-      sudo apt-get update  
-      sudo apt install openjdk-11-jre-headless
+      		
+		sudo apt-get update
+		
+      		sudo apt install openjdk-11-jre-headless
+		
       [Note:Install java 11 for Jenkins . Jenkins supported for java 11
       After configuring Jenkins change java version by 
       Later------ sudo update-alternatives --config java]
